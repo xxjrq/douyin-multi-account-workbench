@@ -1,9 +1,24 @@
 name: douyin-multi-account-workbench
 display_name: 抖音多账号内容协同
-version: 1.0.0
-description: 隔离多个EasyBR环境并汇总抖音公开内容分析结果。
+slug: douyin-multi-account-workbench
+version: 1.0.1
+description: 按 EasyBR 浏览器环境隔离多个抖音账号，串行执行热点、账号、评论和竞品分析，并汇总带账号归属的结果。
 category: selfmedia
+repository: https://github.com/xxjrq/douyin-multi-account-workbench
 runtime: easy-webbridge
+icon: assets/icon-512.png
+trigger_words:
+  - 抖音多账号管理
+  - 抖音账号矩阵
+  - 多账号内容分析
+  - EasyBR 抖音多开
+  - 抖音多账号协同
+tags:
+  - douyin
+  - multi-account
+  - content-analysis
+  - easy-webbridge
+  - creator-workbench
 self_test: node scripts/self-test.mjs
 dependencies:
   - name: douyin-live-hot-free
